@@ -3,118 +3,119 @@
     padding: 0;
     box-sizing: 0;
 }
-a{text-decoration: none;}
-.clear{ clear: both;}
 
-/**************** HEADER *****************/
-
-header {
+/*********************************** 
+              TOPO HEAD 
+************************************/
+.topo-head{
+    width: 100%;
+    height: 66px;
+    background-color: beige;
     position: fixed;
-    width: 100%;
-    height: 55px;
-    background-color: rgb(5, 1, 31);
-}
-.center {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 1%;
-    display: flex;
-}
-.menu {
-    margin: 16px auto;
 }
 
-.menu ul {
-    float: left;
-}
-.menu ul li {
-    margin: 0 30px;
-    list-style: none;
-    
-}
-.menu ul li a {
-    margin: 30px auto;
-}
-.menu ul li a h3 {
-    font-size: 16px;
-    color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-/**************** SEÇÃO EM BRANCO *****************/
-.branco {
-    margin: 0 auto;
-    height: 88px;
-    border-bottom: 1px solid rgb(88, 83, 83);
-    margin-bottom: 20px;
-}
-
-/**************** SEÇÃO TXT *****************/
-.secao-txt {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    width: 755px;
-    margin: 0 auto;
-    font-size: 20px;
-    color: rgb(123, 126, 126);
-}
-.secao-txt button {
-    background-color: rgb(44, 252, 2);
-    padding: 15px 0;
-    margin: 40px 0;
-    width: 266px;
-    border: 0;
-    border-radius: 39px;
-    font-size: 18px;
-    cursor: pointer;
-}
-.secao-txt button:hover{
-    background-color: rgb(24, 51, 19);
-    color: rgb(255, 255, 255);
-    transition: 0.5s;
-}
-/**************** SEÇÃO IMG *****************/
-.secao-img {
-    align-items: center;
-    width: 95%;
-    margin: 0 auto;
-    height: 666px;  
-}
-.secao-img .sega{
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    
-}
-.img-1{
+/***********************************
+            MODELO DE VENDA 
+ ***********************************/
+.bg {
     display: inline-block;
-    margin: 10px 5px;    
-    width: 303px;
-    height: 390px;
-}
-.img-1 img{
     width: 100%;
-    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/BG.png);   
+}
+.container {
+    margin: 110px auto;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.container h2 {
+    margin: 120px auto;
+    color: rgb(255, 240, 255);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+}
+.container > p {
+    margin-top: -49px;
+    margin-bottom: 60px;
+    color: rgb(255, 240, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container p a {
+    margin: 30px auto;
+    width: 744px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.img-1 .btn{
+.produtos{
+    background-color: rgb(202, 173, 202);
+    width: 273px;
+    margin-left: 10px;
+    margin-bottom: 53px;
+    display: inline-block;
+    border-bottom: 8px solid #007dea;
+    border-radius: 30px;
+}
+.produtos:hover{
     cursor: pointer;
-    margin-top: -3px;
-    font-size: 23px;
-    border-radius: 37px;
-    padding: 7px 0;
-    width: 187px;
-    background-color: rgb(0, 255, 21);
+	transform: scale(1.1);
+	background: #007dea;
+    transition: 1.3s;
 }
-.img-1 .btn:hover{
-    background-color: rgb(24, 51, 19);
-    color: rgb(255, 255, 255);
-    transition: 0.5s;
+.produtos h3 {
+    margin: 30px auto;
+    color: rgb(255, 240, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.produtos img {
+    text-align: center;
+    width: 274px;
+    margin-top: -30px;
+}
+/***********************************
+            MODELO DE NEGOCIO 
+ ***********************************/
+ .modelo_de_negocio{
+    background: #f4f9fd;
+    display: inline-block;
+    width: 100%;
+    height: 366px;
+ }
+ 
+ .modelo_de_negocio > .container{
+    margin: 0 auto;
+    margin-top: -86px;
     
 
+ }
+ .qd_container{
+    margin: 10px 20px;
+    display: inline-block;
+    width: 322px;
+    background: rgb(238, 236, 236);
+ }
+ .qd_container_defalt{
+    width: 90%;
+    margin: 20px auto;
+    display: inline-block;
+ }
+ .qd_container_defalt .qd_container_img{
+    margin-right: 300px;
+ }
+ .qd_container_defalt h4{
+    margin: 10px auto;
+    font-size: 23px;
+    
+ }
+ .qd_container_defalt p{
+    font-size: 17px;
 
-
-
-
-
+ }
+ 
+ 
