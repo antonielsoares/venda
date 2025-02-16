@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    max-width: 1400px
 }
 
 /*********************************** 
@@ -53,13 +54,12 @@
 }
 
 .produtos{
-    background-color: rgb(202, 173, 202);
+    background-color: rgb(248, 25, 36);
     width: 273px;
     margin-left: 10px;
     margin-bottom: 53px;
     display: inline-block;
     border-bottom: 8px solid #007dea;
-    border-radius: 30px;
 }
 .produtos:hover{
     cursor: pointer;
