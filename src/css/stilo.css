@@ -11,14 +11,13 @@
 .topo-head{
     width: 100%;
     height: 63px;
-    top: 0;
-    left: 0;
-
     background-color: beige;
-    position: fixed;
-    padding: 0px;
-
     
+}
+.topo-head > .container {
+    width: 70%;
+    height: 50px;
+    background-color: #007dea;
 }
 
 /***********************************

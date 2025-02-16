@@ -4,6 +4,7 @@
 @media screen and (max-width: 825px){
     .topo-head{
         z-index: 1023;
+        width: 100%;
         
     }
 }
@@ -18,16 +19,14 @@
     .container h2 { font-size: 25px; margin-bottom: 82px; }
     .container > p { font-size: 19px; }
     .container p a { font-size: 19px; }
+    
  }
  @media screen and (max-width: 412px){
     .produtos{
-        margin: 0 auto;
-        width: 363PX;
-        height: 433px;
-        
-        
-        
-        
+        margin-top: -40px;
+        margin-left: 0;
+        width: 333PX;
+        height: 433px;   
     }
  }
 
